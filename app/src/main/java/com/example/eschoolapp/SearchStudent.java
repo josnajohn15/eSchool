@@ -61,13 +61,13 @@ public class SearchStudent extends AppCompatActivity {
 
         Cursor cursor = myDB.getStudentData(admissionNumber);
         if (cursor != null && cursor.moveToFirst()) {
-            String details = "Admission_Number: " + cursor.getString(0) +
-                    "\nFname: " + cursor.getString(1) +
-                    "\nLname: " + cursor.getString(2) +
-                    "\nEnrollment_id: " + cursor.getString(3) +
-                    "\nDepartment_id: " + cursor.getString(4) +
-                    "\nCourse_id: " + cursor.getString(5) +
-                    "\nFaculty_id: " + cursor.getString(6);
+            String details = "ADMISSION NUMBER: " + cursor.getString(0) +
+                    "\nFNAME: " + cursor.getString(1) +
+                    "\nLNAME: " + cursor.getString(2) +
+                    "\nENROLLMENT ID: " + cursor.getString(3) +
+                    "\nDEPARTMENT ID: " + cursor.getString(4) +
+                    "\nCOURSE ID: " + cursor.getString(5) +
+                    "\nFACULTY ID: " + cursor.getString(6);
             studentDetails.setText(details);
             highlightResult(studentDetails);
         } else {

@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#00BCD4"
+        android:textColor="#3F51B5"
         android:text="Admission Number"/>
     <EditText
         android:layout_width="match_parent"
@@ -15,13 +15,44 @@
         android:layout_height="wrap_content"
         android:inputType="text"
         android:id="@+id/admno"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20px"
         android:id="@+id/delbtn"
-        android:background="#00BCD4"
+        android:background="#3F51B5"
         android:drawableBottom="@drawable/baseline_person_remove_24"
         android:textColor="#EAEFF1"
         android:text="DELETE"/>
@@ -31,7 +62,7 @@
         android:layout_margin="20px"
         android:id="@+id/back"
         android:textColor="#EAEFF1"
-        android:background="#00BCD4"
+        android:background="#3F51B5"
         android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
         android:text="Back to menu"/>
 </LinearLayout>

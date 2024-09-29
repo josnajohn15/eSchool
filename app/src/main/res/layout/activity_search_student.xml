@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#00BCD4"
+        android:textColor="#3F51B5"
         android:text="Admission Number"/>
     <EditText
         android:layout_width="match_parent"
@@ -16,23 +16,15 @@
         android:inputType="text"
         android:id="@+id/admno"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20px"
-        android:id="@+id/searchbtn"
-        android:background="#00BCD4"
-        android:drawableBottom="@drawable/baseline_search_24"
-        android:textColor="#EAEFF1"
-        android:text="Search"/>
+
     <TextView
         android:id="@+id/studentDetails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        android:textSize="20sp"
-        android:textColorHighlight="#00BCD4"
-        android:textColor="#00BCD4" />
+        android:textSize="18sp"
+        android:textColorHighlight="#CFD2E3"
+        android:textColor="#3F51B5" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -42,6 +34,57 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/searchbtn"
+        android:background="#3F51B5"
+        android:drawableBottom="@drawable/baseline_search_24"
+        android:textColor="#EAEFF1"
+        android:text="Search"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,7 +92,7 @@
         android:layout_margin="20px"
         android:id="@+id/back"
         android:textColor="#EAEFF1"
-        android:background="#18B9CD"
+        android:background="#3F51B5"
         android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
         android:text="Back to menu"/>
 </LinearLayout>

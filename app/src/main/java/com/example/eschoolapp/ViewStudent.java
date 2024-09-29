@@ -48,18 +48,18 @@ public class ViewStudent extends AppCompatActivity {
             cardLayout.setPadding(16, 16, 16, 16);
 
             // Create TextView for student details
-            String details = "Admission Number: " + cur.getString(0) +
-                    "\nFirst Name: " + cur.getString(1) +
-                    "\nLast Name: " + cur.getString(2) +
-                    "\nEnrollment ID: " + cur.getString(3) +
-                    "\nDepartment ID: " + cur.getString(4) +
-                    "\nCourse ID: " + cur.getString(5) +
-                    "\nFaculty ID: " + cur.getString(6);
+            String details = "ADMISSION NUMBER: " + cur.getString(0) +
+                    "\nFIRST NAME: " + cur.getString(1) +
+                    "\nLAST NAME: " + cur.getString(2) +
+                    "\nENROLLMENT ID: " + cur.getString(3) +
+                    "\nDEPARTMENT ID: " + cur.getString(4) +
+                    "\nCOURSE ID: " + cur.getString(5) +
+                    "\nFACULTY ID: " + cur.getString(6);
 
             TextView studentDetails = new TextView(this);
             studentDetails.setText(details);
-            studentDetails.setTextSize(20);
-            studentDetails.setTextColor(Color.parseColor("#2CC0F1"));
+            studentDetails.setTextSize(18);
+            studentDetails.setTextColor(Color.parseColor("#3F51B5"));
 
             // Add TextView to CardLayout
             cardLayout.addView(studentDetails);
