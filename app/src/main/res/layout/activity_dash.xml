@@ -1,0 +1,95 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:background="@drawable/stud1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#2CC0F1"
+        android:id="@+id/addstud"
+        android:drawableBottom="@drawable/baseline_person_add_alt_1_24"
+        android:fontFamily="serif"
+        android:textColor="#EAEFF1"
+        android:padding="30px"
+        android:text="ADD a student"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/upstud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:padding="30px"
+        android:background="#2CC0F1"
+        android:fontFamily="serif"
+        android:drawableBottom="@drawable/baseline_mode_24"
+        android:text="update student details"
+        android:textColor="#EAEFF1" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/serstud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:padding="30px"
+        android:background="#2CC0F1"
+        android:drawableBottom="@drawable/baseline_search_24"
+        android:fontFamily="serif"
+        android:text="search for a student"
+        android:textColor="#EAEFF1" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delstud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:padding="30px"
+        android:background="#2CC0F1"
+        android:drawableBottom="@drawable/baseline_person_remove_24"
+        android:fontFamily="serif"
+        android:text="remove a student"
+        android:textColor="#EAEFF1" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vistud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:padding="30px"
+        android:background="#2CC0F1"
+        android:drawableBottom="@drawable/baseline_view_list_24"
+        android:fontFamily="serif"
+        android:text="view all students"
+        android:textColor="#EAEFF1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logbtn"
+        android:textColor="#EAEFF1"
+        android:background="#2B3EA3"
+        android:layout_margin="10px"
+        android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
+        android:text="Logout"/>
+
+</LinearLayout>

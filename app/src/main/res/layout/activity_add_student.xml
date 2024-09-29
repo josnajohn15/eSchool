@@ -1,0 +1,105 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Admission Number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the admission number"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/admno"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="First Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the first name"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Last Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter the last name"
+        android:id="@+id/lname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Enrollment ID"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the enrollment ID"
+        android:inputType="text"
+        android:id="@+id/enroll"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#00BCD4"
+        android:layout_height="wrap_content"
+        android:text="Department"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter the department ID"
+        android:id="@+id/dep"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Course ID"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the course id"
+        android:inputType="text"
+        android:id="@+id/course"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Faculty ID"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the faculty ID"
+        android:inputType="text"
+        android:id="@+id/fac"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/addbtn"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_person_add_alt_1_24"
+        android:textColor="#EAEFF1"
+        android:text="ADD"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/back"
+        android:textColor="#EAEFF1"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
+        android:text="Back to menu"/>
+</LinearLayout>

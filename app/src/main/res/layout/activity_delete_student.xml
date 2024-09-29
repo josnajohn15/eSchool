@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Admission Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the admission number"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/admno"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/delbtn"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_person_remove_24"
+        android:textColor="#EAEFF1"
+        android:text="DELETE"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/back"
+        android:textColor="#EAEFF1"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
+        android:text="Back to menu"/>
+</LinearLayout>
